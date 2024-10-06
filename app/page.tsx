@@ -68,9 +68,14 @@ const Home = () => {
   return (
     <Container size="md" style={{ textAlign: "center", paddingTop: "50px" }}>
       <Image alt="banner" h={400} src="/goose.webp" />
-      <Title order={1} p={"md"}>
+
+      <Title order={1} pt={"md"}>
         Honk64 Encoding
       </Title>
+      <a href="https://github.com/briceyan/honk64/blob/master/README.md">
+        <Text p={"sm"}>The Honk64 Spec</Text>
+      </a>
+
       {/* Section for English to Honk64 */}
       <Textarea
         placeholder="Enter normal text here..."
